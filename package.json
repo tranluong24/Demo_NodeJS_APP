@@ -1,0 +1,37 @@
+{
+  "name": "lesson_2",
+  "version": "1.0.0",
+  "description": "Ung dung app back end dau tien cua toi",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranluong24/Demo_NodeJS_APP.git"
+  },
+  "keywords": [
+    "demoapp",
+    "demo",
+    "app",
+    "nodejs",
+    "nodejs",
+    "app",
+    "nodejs",
+    "backend",
+    "app"
+  ],
+  "author": "helloworld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranluong24/Demo_NodeJS_APP/issues"
+  },
+  "homepage": "https://github.com/tranluong24/Demo_NodeJS_APP#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
