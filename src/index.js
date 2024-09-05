@@ -15,6 +15,8 @@ app.use(morgan("combined"));
 //Tempate engine
 const exphbs = require("express-handlebars");
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.engine(".hbs", exphbs.engine({//Cau hinh cho handlebars
   extname: '.hbs'
 })); //luu y: exphbs.engine()
